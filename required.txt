@@ -1,6 +1,7 @@
-tensorflow
-pandas
-keras
-sikitlearn
-numpy
-matlotlib
+TensorFlow
+Keras
+NumPy
+Pandas
+Pillow
+Matplotlib
+scikit-learn
