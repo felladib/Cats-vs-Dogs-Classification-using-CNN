@@ -1,17 +1,21 @@
-# Cats vs Dogs Classification using-CNN
+# Classification de Chiens et Chats avec Réseaux de Neurones Convolutionnels (CNN)
 
-This project aims to classify images of cats and dogs using a Convolutional Neural Network (CNN) built with TensorFlow and Keras. The dataset used is from the [Kaggle competition](https://www.kaggle.com/c/dogs-vs-cats).
+Ce projet vise à classer les images de chiens et de chats en utilisant un Réseau de Neurones Convolutionnels (CNN) construit avec TensorFlow et Keras. Le jeu de données utilisé est issu de la [compétition Kaggle](https://www.kaggle.com/c/dogs-vs-cats).
+
+## Objectif
+
+L'objectif principal de ce projet est de créer un modèle capable de distinguer entre les images de chiens et de chats avec une précision élevée.
 
 ## Table of Contents
 
-- [Dataset](#dataset)
-- [Installation](#installation)
-- [Data Preparation](#data-preparation)
-- [Model Architecture](#model-architecture)
-- [Training](#training)
-- [Evaluation](#evaluation)
-- [Results](#results)
-- [License](#license)
+- [Dataset](#Dataset)
+- [Installation](#Installation)
+- [Data Preparation](#Préparation-des-Données)
+- [Model Architecture](#Architecture-du-Modèle)
+- [Training](#Entraînement)
+- [Evaluation](#Évaluation)
+- [Results](#Résultats)
+
 
 ## Dataset
 
@@ -22,7 +26,11 @@ The dataset consists of images of cats and dogs. The data is split into training
 
 ## Installation
 
-To run this project, you need to have Python 3.x and the following libraries installed:
+
+Pour exécuter ce projet localement, suivez ces étapes :
+
+1. Assurez-vous d'avoir Python 3.x installé sur votre système.
+2. Installez les dépendances en exécutant `pip install -r requirements.txt`.
 
 - TensorFlow
 - Keras
@@ -32,28 +40,15 @@ To run this project, you need to have Python 3.x and the following libraries ins
 - Matplotlib
 - scikit-learn
 
-# Classification de Chiens et Chats avec Réseaux de Neurones Convolutionnels (CNN)
 
-Ce projet vise à classer les images de chiens et de chats en utilisant un Réseau de Neurones Convolutionnels (CNN) construit avec TensorFlow et Keras. Le jeu de données utilisé est issu de la [compétition Kaggle](https://www.kaggle.com/c/dogs-vs-cats).
 
-## Objectif
-
-L'objectif principal de ce projet est de créer un modèle capable de distinguer entre les images de chiens et de chats avec une précision élevée.
-
-## Instructions d'Installation
-
-Pour exécuter ce projet localement, suivez ces étapes :
-
-1. Assurez-vous d'avoir Python 3.x installé sur votre système.
-2. Installez les dépendances en exécutant `pip install -r requirements.txt`.
-
-## Préparation des Données
+## Préparation-des-Données
 
 1. Téléchargez le jeu de données à partir du lien fourni dans la section "Dataset".
 2. Extrayez les fichiers zip dans le dossier approprié.
 3. Utilisez les scripts fournis pour prétraiter les données et les préparer pour l'entraînement.
 
-## Architecture du Modèle
+## Architecture-du-Modèle
 
 Le modèle utilisé est un réseau de neurones convolutif (CNN) avec les caractéristiques suivantes :
 
